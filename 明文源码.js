@@ -2,7 +2,7 @@
 import { connect } from 'cloudflare:sockets';
 
 let userID = '';
-let proxyIP = '';
+let proxyIP = 'ts.hpc.tw';
 let sub = '';
 let subConverter = 'SUBAPI.fxxk.dedyn.io';
 let subConfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini";
